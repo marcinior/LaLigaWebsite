@@ -1,0 +1,77 @@
+h2{
+	width: 40%;
+	margin-left: 18%;
+	text-align: center;
+	background-color: #f2e0a4;
+	border: 1px solid #f2e0a4;
+	border-radius: 5px;
+	color: #0e0330;
+}
+label{
+	margin-left: 10%;
+	display: block;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+span{
+	margin-right: 25px;
+	margin-left: 25px;
+	padding-top: 5px;
+}
+span.left{
+	width: 150px;
+	text-align: right;
+	margin-right: 10px;
+	float: left;
+	color: #1e0142;
+}
+span.sex{
+	margin-left: 5px;
+	color: #1e0142;
+}
+span.watch{
+	margin-left: 2px;
+	margin-right: 12px;
+	color: #1e0142;
+}
+ #Progress {
+  margin-left: 27%;
+  width: 37%;
+  background-color: #ddd;
+}
+
+#Bar {
+  width: 2%;
+  height: 10px;
+  background-color: #c0ff63;
+}
+.button{
+	margin-top: 50px;
+	width: 150px;
+	height: 30px;
+	border: 1px solid #1e0142; 
+	border-radius: 6px;
+	background-color: #1e0142;
+color: white;
+}
+button:disabled{
+	background-color: #bdc1b4;
+}
+input{
+	color: black;
+}
+#r{
+	float: right;
+	padding: 10px;
+	margin-right: 5%;
+	color: #1e0142;
+	border-radius: 5px;
+}
+li{
+	list-style-type: none;
+}
+/* #edit_field{
+	height: 350px;
+	overflow: scroll;
+	overflow-x: hidden; 
+} */

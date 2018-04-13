@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html class="no-js"> 
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Tabela wyników</title>
+  <link rel="shortcut icon" href="../Images/ikona_mala.ico" />
+  <meta name="description" content="Liga hiszpańska">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="../Style/bootstrap.css"> 
+  <!-- <link rel="stylesheet" href="../Style/bootstrap-responsive.css"> -->
+  <link rel="stylesheet" href="../Style/style.css">
+  <link rel="stylesheet" href="table.css">
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+ <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="
+ crossorigin="anonymous"></script>
+</head>
+<body onload="time()">
+ <div class="header-wrapper">
+    <div class="container">
+      <div class="row-fluid">
+        <div class="site-name">
+          <h1><img src="../Images/laliga.png" alt="logo ligi hiszpańskiej" id="logo">Liga Hiszpańska
+          <div id="time">
+          <script type="text/javascript" src="../Index/greeting.js"></script>   
+          </div>   
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="menu">
+      <div class="navbar">
+           <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="../Index/index.html">Strona główna</a></li>
+              <li class="active"><a href="table.html">Tabela</a></li>
+              <li><a href="../Rejestracja/form.html">Rejestracja</a></li>
+              <li><a href="../Galeria/galeria.html">Galeria</a></li>
+            </ul>
+          </div>
+        </div>
+         <div class="herby">
+          <a href="https://pl.wikipedia.org/wiki/Deportivo_Alav%C3%A9s" title="Deportivo Alaves"><img src="../herby/1.png" alt="Deportivo Alaves" /></a>
+          <a href="https://pl.wikipedia.org/wiki/Athletic_Bilbao" title="Athletic Bilbao"><img src="../herby/2.png" alt="Athletic Bilbao" /></a>
+          <a href="https://pl.wikipedia.org/wiki/Atl%C3%A9tico_Madryt" title="Atletico Madryt"><img src="../herby/3.png" alt="Atletico Madryt" /></a>
+          <a href="https://pl.wikipedia.org/wiki/FC_Barcelona" title="FC Barcelona"><img src="../herby/4.png" alt="FC Barcelona" /></a>
+          <a href="https://pl.wikipedia.org/wiki/Celta_Vigo" title="Celta Vigo"><img src="../herby/5.png" alt="Celta Vigo" /></a>
+          <a href="https://pl.wikipedia.org/wiki/Deportivo_La_Coru%C3%B1a" title="Deportivo La Coruna"><img src="../herby/6.png" alt="Deportivo La Coruna" /></a>
+          <a href="https://pl.wikipedia.org/wiki/SD_Eibar" title="Eibar"><img src="../herby/7.png" alt="Eibar" /></a>
+          <a href="https://pl.wikipedia.org/wiki/RCD_Espanyol" title="Espanyol"><img src="../herby/8.png" alt="Espanyol" /></a>
+          <a href="https://pl.wikipedia.org/wiki/Granada_CF" title="Granada"><img src="../herby/9.png" alt="Granada" /></a>
+          <a href="https://pl.wikipedia.org/wiki/UD_Las_Palmas" title="Las Palmas"><img src="../herby/10.png" alt="Las Palmas" /></a>
+          <a href="https://pl.wikipedia.org/wiki/CD_Legan%C3%A9s" title="Leganes"><img src="../herby/11.png" alt="Leganes" /></a>
+          <a href="https://pl.wikipedia.org/wiki/M%C3%A1laga_CF" title="Malaga"><img src="../herby/12.png" alt="Malaga" /></a>
+          <a href="https://pl.wikipedia.org/wiki/CA_Osasuna" title="Osasuna"><img src="../herby/13.png" alt="Osasuna" /></a>
+          <a href="https://pl.wikipedia.org/wiki/Real_Betis" title="Real Betis"><img src="../herby/14.png" alt="Real Betis" /></a>
+          <a href="https://pl.wikipedia.org/wiki/Real_Madryt" title="Real Madryt"><img src="../herby/15.png" alt="Real Madryt" /></a>
+          <a href="https://pl.wikipedia.org/wiki/Real_Sociedad" title="Real Sociedad"><img src="../herby/16.png" alt="Real Sociedad" /></a>
+          <a href="https://pl.wikipedia.org/wiki/Sevilla_FC" title="Sevilla"><img src="../herby/17.png" alt="Sevilla" /></a>
+          <a href="https://pl.wikipedia.org/wiki/Sporting_Gij%C3%B3n" title="Sporting Gijon"><img src="../herby/18.png" alt="Sporting Gijon" /></a>
+          <a href="https://pl.wikipedia.org/wiki/Valencia_CF" title="Valencia"><img src="../herby/19.png" alt="Valencia" /></a>
+          <a href="https://pl.wikipedia.org/wiki/Villarreal_CF" title="Villarreal"><img src="../herby/20.png" alt="Villarreal" /></a>
+        </div>
+      </div>
+    </div>
+    <div id="tresc">
+      <table>
+        <thead>
+          <tr>
+            <td class="nag" id="lp">Pozycja</td>
+            <td class="nag" id="club">Klub</td>
+            <td title="Rozegrane mecze" class="nag">Rozegrane mecze</td>
+            <td title="Zwycięstwa" class="nag">Zwycięstwa</td>
+            <td title="Remisy" class="nag">Remisy</td>
+            <td title="Przegrane" class="nag">Przegrane</td>
+            <td title="Bilans bramek" class="nag" >Bilans bramek</td>
+            <td title="Punkty" class="nag">Punkty</td>
+          </tr></thead>
+          <tbody>
+            <tr>
+              <td class="data1">1.</td>
+              <td class="data1 kl_max"><img src="images/small_min_1025025495.png" alt="FC Barcelona" />FC Barcelona</td>
+              <td class="data1">34</td>
+              <td class="data1 ">24</td>
+              <td class="data1 ">6</td>
+              <td class="data1 ">4</td>
+              <td class="data1">100-33</td>
+              <td class="data1">78</td>
+            </tr>
+            <tr>
+              <td class="data1">2.</td>
+              <td class="data1 kl_max"><img src="images/small_min_1446522276.png" alt="Real Madryt" /> Real Madryt</td>
+              <td class="data1">33</td>
+              <td class="data1">24</td>
+              <td class="data1">6</td>
+              <td class="data1">3</td>
+              <td class="data1">90-38</td>
+              <td class="data1">78</td>
+            </tr>
+            <tr>
+              <td class="data1">3.</td>
+              <td class="data1 kl_max"><img src="images/small_min_988903896.png" alt="Atlético Madryt" />Atlético Madryt</td>
+              <td class="data1">34</td>
+              <td class="data1 ">20</td>
+              <td class="data1 ">8</td>
+              <td class="data1 ">6</td>
+              <td class="data1">60-25</td>
+              <td class="data1">68</td>
+            </tr>
+            <tr>
+              <td class="data1">4.</td>
+              <td class="data1 kl_max"><img src="images/small_min_984297786.png" alt="Sevilla" />Sevilla</td>
+              <td class="data1">33</td>
+              <td class="data1 ">19</td>
+              <td class="data1 ">8</td>
+              <td class="data1 ">6</td>
+              <td class="data1">58-39</td>
+              <td class="data1">65</td>
+            </tr>
+            <tr>
+              <td class="data1">5.</td>
+              <td class="data1 kl_max"><img src="images/small_min_1959110207.png" alt="Villarreal" />Villarreal</td>
+              <td class="data1">34</td>
+              <td class="data1 ">17</td>
+              <td class="data1 ">9</td>
+              <td class="data1 ">8</td>
+              <td class="data1">49-27</td>
+              <td class="data1">60</td>
+            </tr>
+            <tr>
+              <td class="data1">6.</td>
+              <td class="data1 kl_max"><img src="images/small_min_1594362213.png" alt="Real Sociedad" />Real Sociedad</td>
+              <td class="data1">34</td>
+              <td class="data1 ">18</td>
+              <td class="data1 ">4</td>
+              <td class="data1 ">12</td>
+              <td class="data1">52-47</td>
+              <td class="data1">58</td>
+            </tr>
+            <tr>
+              <td class="data1">7.</td>
+              <td class="data1 kl_max"><img src="images/small_min_1251136670.png" alt="Athletic Bilbao" />Athletic Bilbao</td>
+              <td class="data1">33</td>
+              <td class="data1 ">17</td>
+              <td class="data1 ">5</td>
+              <td class="data1 ">11</td>
+              <td class="data1">46-37</td>
+              <td class="data1">56</td>
+            </tr>
+            <tr>
+              <td class="data1">8.</td>
+              <td class="data1 kl_max"><img src="images/small_min_456797257.png" alt="Eibar" />Eibar</td>
+              <td class="data1">33</td>
+              <td class="data1 ">14</td>
+              <td class="data1 ">8</td>
+              <td class="data1 ">11</td>
+              <td class="data1">52-45</td>
+              <td class="data1">50</td>
+            </tr>
+            <tr>
+              <td class="data1">9.</td>
+              <td class="data1 kl_max"><img src="images/small_min_102429765.png" alt="Espanyol" /> Espanyol</td>
+              <td class="data1">34</td>
+              <td class="data1 ">13</td>
+              <td class="data1 ">11</td>
+              <td class="data1 ">10</td>
+              <td class="data1">45-44</td>
+              <td class="data1">50</td>
+            </tr>
+            <tr>
+              <td class="data1">10.</td>
+              <td class="data1 kl_max"><img src="images/small_min_1581997475.png" alt="Celta Vigo" />Celta Vigo</td>
+              <td class="data1">32</td>
+              <td class="data1 ">13</td>
+              <td class="data1 ">5</td>
+              <td class="data1 ">14</td>
+              <td class="data1">48-52</td>
+              <td class="data1">44</td>
+            </tr>
+            <tr>
+              <td class="data1">11.</td>
+              <td class="data1 kl_max"><img src="images/small_min_523124748.png" alt="Deportivo Alavés" />Deportivo Alavés</a></td>
+              <td class="data1">33</td>
+              <td class="data1 ">11</td>
+              <td class="data1 ">11</td>
+              <td class="data1 ">11</td>
+              <td class="data1">32-40</td>
+              <td class="data1">44</td>
+            </tr>
+            <tr>
+              <td class="data1">12.</td>
+              <td class="data1 kl_max"><img src="images/small_min_1323258528.png" alt="Valencia" />Valencia</td>
+              <td class="data1">34</td>
+              <td class="data1 ">11</td>
+              <td class="data1 ">7</td>
+              <td class="data1 ">16</td>
+              <td class="data1">49-59</td>
+              <td class="data1">40</td>
+            </tr>
+            <tr>
+              <td class="data1">13.</td>
+              <td class="data1 kl_max"><img src="images/small_min_1060650259.png" alt="UD Las Palmas" />UD Las Palmas</td>
+              <td class="data1">34</td>
+              <td class="data1 ">10</td>
+              <td class="data1 ">9</td>
+              <td class="data1 ">15</td>
+              <td class="data1">52-61</td>
+              <td class="data1">39</td>
+            </tr>
+            <tr>
+              <td class="data1">14.</td>
+              <td class="data1 kl_max"><img src="images/small_min_1421012834.png" alt="Málaga" />Málaga</td>
+              <td class="data1">34</td>
+              <td class="data1 ">10</td>
+              <td class="data1 ">9</td>
+              <td class="data1 ">15</td>
+              <td class="data1">40-49</td>
+              <td class="data1">39</td>
+            </tr>
+            <tr>
+              <td class="data1">15.</td>
+              <td class="data1 kl_max"><img src="images/small_min_266352797.png" alt="Real Betis" />Real Betis</td>
+              <td class="data1">33</td>
+              <td class="data1 ">10</td>
+              <td class="data1 ">7</td>
+              <td class="data1 ">16</td>
+              <td class="data1">36-51</td>
+              <td class="data1">37</td>
+            </tr>
+            <tr>
+              <td class="data1">16.</td>
+              <td class="data1 kl_max"><img src="images/small_min_1712843658.png" alt="Deportivo La Coruña" />Deportivo La Coruña</td>
+              <td class="data1">34</td>
+              <td class="data1 ">7</td>
+              <td class="data1 ">10</td>
+              <td class="data1 ">17</td>
+              <td class="data1">37-57</td>
+              <td class="data1">31</td>
+            </tr>
+            <tr>
+              <td class="data1">17.</td>
+              <td class="data1 kl_max"><img src="images/small_min_1577082908.png" alt="CD Leganés" />CD Leganés</td>
+              <td class="data1">34</td>
+              <td class="data1 ">7</td>
+              <td class="data1 ">9</td>
+              <td class="data1 ">18</td>
+              <td class="data1">30-51</td>
+              <td class="data1">30</td>
+            </tr>
+            <tr>
+              <td class="data1">18.</td>
+              <td class="data1 kl_max"><img src="images/small_min_321024212.png" alt="Sporting Gijón" />Sporting Gijón</td>
+              <td class="data1">34</td>
+              <td class="data1 ">5</td>
+              <td class="data1 ">9</td>
+              <td class="data1 ">20</td>
+              <td class="data1">37-67</td>
+              <td class="data1">24</td>
+            </tr>
+            <tr>
+              <td class="data1">19.</td>
+              <td class="data1 kl_max"><img src="images/small_min_995811784.png" alt="Granada" />Granada</td>
+              <td class="data1">34</td>
+              <td class="data1 ">4</td>
+              <td class="data1 ">8</td>
+              <td class="data1 ">22</td>
+              <td class="data1">27-72</td>
+              <td class="data1">20</td>
+            </tr>
+            <tr>
+              <td class="data1">20.</td>
+              <td class="data1 kl_max"><img src="images/small_min_1081089631.png" alt="Osasuna" />Osasuna</td>
+              <td class="data1">34</td>
+              <td class="data1 ">3</td>
+              <td class="data1 ">9</td>
+              <td class="data1 ">22</td>
+              <td class="data1">35-81</td>
+              <td class="data1">18</td>
+            </tr>                              
+          </tbody>
+        </table> 
+      </div>
+      <div class="wrap bg-black">
+        <div class="container ">
+          <div class="row-fluid">
+            <div class="copy-rights">
+              Copyright(c) LigaBBVA <span>Designed by:</span><span id="myName">Marcin Bobel</span><span><a href="mailto:marcinior@onet.pl">marcinior@onet.pl</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script type="text/javascript">
+        $('tr:odd').css("background-color","#b5dee2");
+        $('tr:even').css("background-color","#f9f5ac");
+      </script>
+      <script src="js/jquery-1.9.1.js"></script> 
+      <script src="js/bootstrap.js"></script>
+    </body>
+    </html>

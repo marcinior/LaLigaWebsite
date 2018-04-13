@@ -1,0 +1,31 @@
+table{
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #181e28;
+	background-color: #fff;
+	color: #000;
+}
+.nag{
+	width: 100px;
+	height: 25px;
+	background-color: #243756;
+	color: #fff;
+	border-left: 0;
+	border-right: 0;
+}
+.nag,.data1{
+	text-align: center;
+}
+.kl_max{
+	text-align: left;
+}
+#lp{
+	width: 50px;
+}
+#club{
+	width: 150px;
+}
+table img{
+	box-shadow: none;
+	border-radius: 0;
+}

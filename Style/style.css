@@ -1,0 +1,166 @@
+
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('../fonts/sourcesanspro-regular-webfont.eot');
+    src: url('../fonts/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/sourcesanspro-regular-webfont.woff') format('woff'),
+    url('../fonts/sourcesanspro-regular-webfont.ttf') format('truetype'),
+    url('../fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fjalla_oneregular';
+    src: url('../fonts/fjallaone-regular-webfont.eot');
+    src: url('../fonts/fjallaone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/fjallaone-regular-webfont.woff') format('woff'),
+    url('../fonts/fjallaone-regular-webfont.ttf') format('truetype'),
+    url('../fonts/fjallaone-regular-webfont.svg#fjalla_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*style globalne*/
+
+body{
+ font-family: 'fjalla_oneregular';
+ font-size: 14px;
+ line-height: 14px;
+ color:#8d8c8c; 
+ background-image: url('../Images/tlo.jpg');
+}
+
+h1, h2, h3, h4, h5, h6{
+ font-family: 'fjalla_oneregular';
+ color: #000;
+ font-weight: normal;
+ margin: 0;
+}
+
+#tresc{
+    background-color: #bcc0d1;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 1100px;
+}
+h1{font-size: 30px;line-height: 36px;color: #fff;}
+h2{font-size: 28px;line-height: 32px;}
+h3{font-size: 26px;line-height: 30px;}
+h4{font-size: 20px;line-height: 28px; color: #3f4b51; text-transform: uppercase;}
+h5{font-size: 18px;line-height: 22px;}
+h6{font-size: 16px;line-height: 20px; color: #2abde9; font-family: 'source_sans_proregular';}
+p{ 
+    font-family: 'source_sans_proregular';
+    line-height: 22px;
+    padding-bottom: 25px;
+    margin-bottom: 0;
+}
+.container{
+    width: 1100px;
+}
+.wrap{overflow: hidden;}
+.bg-black{background: #364045;}
+.header-wrapper{
+    background: #3f4b51;
+    overflow: hidden;
+    margin-bottom: 0;
+    padding: 20px 0;
+} 
+.nazwa_strony{
+    display: inline-block;
+    text-transform: uppercase;
+    float: left;
+}
+.nazwa_strony h1{
+    color: #fff;
+    font-size: 30px;
+    line-height: 36px;
+    font-family: 'fjalla_oneregular'; 
+    margin: 0;
+}
+
+/*****style menu******/
+
+.menu{
+    text-align: left;
+    border-radius: 5px 5px 0 0;
+    background: #31476b;}
+    .menu .navbar{
+        height: 60px;
+        width: 95%}
+    .navbar{
+        display: inline-block; 
+        margin-bottom: 0;
+    }
+    .navbar .nav{ display: inline-block;}
+    .navbar .nav > li {font-family: 'fjalla_oneregular'; }
+    .navbar .nav > li a{
+        color: #fff;
+        padding: 22px 30px;
+        border-right: 1px solid #55caed;
+        text-shadow: none;
+        text-transform: uppercase; 
+        display: inline-block;
+        float: left; 
+    }
+    .navbar .nav > li a:hover{
+        background: #59c0cc;
+        box-shadow: none;
+        color: #fff;}
+        .navbar .nav > .active > a{
+            background: #2a7db2;
+            box-shadow: none;
+            color: #fff;}
+            .navbar .nav > .active > a:hover{
+                box-shadow: none;
+                background: none;
+            } 
+            .herby img{
+                margin: 0.5px;
+            }
+            .herby{
+                background-color: #bcc0d1;
+            }
+            #time{
+                float: right;
+                font-size: 15px;
+                line-height: 15px;
+                color: #edd895;
+            }
+            img{
+                border-radius: 15px;
+                box-shadow: 0 5px 5px 0;
+            }
+            img#logo{
+                box-shadow: none;
+            }
+            /*style stopki*/
+
+            .copy-rights{
+                padding: 20px 0;
+                 color: #8099a1; 
+                 font-family: 'source_sans_proregular'; 
+                 font-size: 14px; 
+                 line-height: 26px;
+                 text-align: center;
+            }
+            .copy-rights a{color: #8099a1;}
+            .copy-rights span{
+                color:#2abde9;
+                margin: 3px;
+            }
+            .copy-rights a:hover{
+                color:#ffffff; 
+                text-decoration: none;
+                 }
+            #myName{
+                color: #bdd2ef;
+                font-size: 15px;
+
+            }
+
+            /*responsive*/
+            .navbar .btn-navbar{float: left;  text-shadow: none; background: #3f4b51; color: #fff; margin-bottom: 5px; margin-left: 0; margin-right: 0;}
+            .navbar .btn-navbar:hover{ background: #fff; color: #2abde9;}

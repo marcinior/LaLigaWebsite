@@ -1,0 +1,69 @@
+#tresc{
+	color: #243756;
+}
+#history{
+	float: left;
+	width: 40%;
+	height: 350px;
+	margin-left: 3%;
+	margin-right: 2%;
+	margin-bottom: 20px;
+	padding: 22px;
+	overflow: scroll;
+	overflow-x: hidden;
+	background-color: #f2e5ba;
+	font-size: 1em;
+}
+#history h3{
+	margin-bottom: 10px;
+}
+#game{
+	float: left;
+	width: 40%;
+	height: 350px;
+	margin-right: 3%;
+	margin-left: 2%;
+	margin-bottom: 20px;
+	padding: 22px;
+	background-color: #f2e5ba;
+}
+#tro{
+	clear: both;
+	width: 89%;
+	height: 400px;
+	margin-right: 3%;
+	margin-left: 3%;
+	margin-top: 30px;
+	padding: 22px;
+	background-color: #f2e5ba;
+}
+#game,#history,#tro{
+	border: 5px solid #243756;
+}
+#tro_left{
+	float: left;
+	width: 35%;
+	margin: 1%;
+}
+#tro_center{
+	float: left;
+	width: 25%;
+	margin: 1%;
+	margin-left: 0;
+}
+#tro_right{
+	float: right;
+	width: 35%;
+	margin: 1%;
+} 
+table,td,tr{
+	border: 1px solid #243756;
+	background-color: #fff;
+	color: #000;
+	text-align: center;
+	background-color: #88a2cc;
+}
+th{
+	color: #fff;
+	background-color: #243756;
+}

@@ -1,0 +1,17 @@
+h2{
+	text-align: center;
+	color: #0e0330;
+	margin-bottom: 50px;
+	background-color: #f2e0a4;
+	border: 1px solid #f2e0a4;
+	border-radius: 5px;
+
+}
+#svg{
+	width: 25%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.container{
+	padding-bottom: 0;
+}
